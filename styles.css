@@ -88,7 +88,7 @@ body.loading-state {
         height: 100%;
         top: 0;
         left: 0;
-        background: linear-gradient(180deg, rgb(48 61 81 / 98%) 0%, rgb(7 8 10 / 0%) 60% 30%, rgb(24 26 31) 83%);
+        background: linear-gradient(180deg, rgb(24 26 31) 30%, rgb(7 8 10 / 0%) 60% 30%, rgb(24 26 31) 83%);
         z-index: 9999999999999999999999;
     }
 }

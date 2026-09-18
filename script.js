@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     introVideo.addEventListener('ended', () => {
         console.log('Video completed. Unlocking Gym 21 Homepage!');
-        // videoOverlay.classList.add('fade-out');
+        videoOverlay.classList.add('fade-out');
         setTimeout(() => {
             videoOverlay.style.display = 'none'
             document.body.classList.remove('loading-state');
