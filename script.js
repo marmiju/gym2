@@ -25,11 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
      */
     introVideo.addEventListener('ended', () => {
         console.log('Video completed. Unlocking Gym 21 Homepage!');
-        // videoOverlay.classList.add('fade-out');
-        // setTimeout(() => {
-        //     videoOverlay.style.display = 'none'
-        //     document.body.classList.remove('loading-state');
-        //     document.body.style.overflow = 'auto';
-        // }, 1000);
+        videoOverlay.classList.add('fade-out');
+        setTimeout(() => {
+            videoOverlay.style.display = 'none'
+            document.body.classList.remove('loading-state');
+            document.body.style.overflow = 'auto';
+        }, 1000);
     });
 });
